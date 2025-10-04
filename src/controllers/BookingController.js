@@ -25,7 +25,7 @@ exports.createBooking = async (req, res) => {
         message: "User not found" 
       });
     }
-
+     console.log(user,"user");
     if (user.status === 'blocked') {
       return res.status(403).json({ 
         success: false, 
