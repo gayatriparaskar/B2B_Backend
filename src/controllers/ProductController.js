@@ -38,7 +38,7 @@ exports.createProduct = async (req, res) => {
 
         await NotificationModel.insertMany(notifications);
         console.log(`✅ Created ${notifications.length} product notifications for admins`);
-
+        console.log(adminUsers,"adminUsers");
         // Send real-time push notifications to all admins
         const adminSubscriptions = adminUsers
           .filter(admin => admin.subscription && admin.subscription.endpoint)
