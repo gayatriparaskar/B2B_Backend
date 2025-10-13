@@ -1,7 +1,7 @@
 {
-  "name": "Bussiness to Bussiness backend",
+  "name": "burhanput_city_backend",
   "version": "1.0.0",
-  "description": "Bussiness to Bussinessbackend",
+  "description": "Burhanpur city backend",
   "main": "index.js",
   "engines": {
     "node": "18.x"
@@ -13,14 +13,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gayatriparaskar/B2B.git"
+    "url": "git+https://github.com/gayatriparaskar/Burhanpur_city_backend.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/gayatriparaskar/B2B/issues"
+    "url": "https://github.com/gayatriparaskar/Burhanpur_city_backend/issues"
   },
-  "homepage": "https://github.com/gayatriparaskar/B2B#readme",
+  "homepage": "https://github.com/gayatriparaskar/Burhanpur_city_backend#readme",
   "dependencies": {
     "bcrypt": "^5.1.1",
     "cors": "^2.8.5",

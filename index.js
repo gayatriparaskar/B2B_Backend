@@ -94,7 +94,7 @@ const io = new Server(server, {
 const { socketHandler } = require('./src/socket/socketHandler');
 socketHandler(io);
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 5000;
 server.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
   console.log(`Socket.IO server initialized`);

@@ -42,7 +42,7 @@ module.exports.createSubCat = async (req, res) => {
         .status(409)
         .json(errorResponse(409, "Subcategory already exists under this category.", existOne));
     }
-  console.log(trimmedName,"trimmedName");
+
     // Create new subcategory
     const newSubCategory = new SubCategoryModel({
       name: trimmedName,
